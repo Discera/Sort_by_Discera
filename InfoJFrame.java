@@ -44,6 +44,7 @@ public class InfoJFrame {
 	 */
 	private void initialize() {
 		frame2 = new JFrame();
+		frame2.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\maxgl\\OneDrive\\Bilder\\Logo.png"));
 		frame2.setBounds(100, 100, 666, 419);
 		frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame2.getContentPane().setLayout(null);
