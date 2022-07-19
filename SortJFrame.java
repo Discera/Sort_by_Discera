@@ -278,15 +278,12 @@ public class SortJFrame extends JFrame {
 		lblTime1.setBounds(531, 274, 87, 17);
 		lblTime1.setFont(new Font("Consolas", Font.PLAIN, 11));
 		contentPane.add(lblTime1);
-		
-		JButton btnNewButton_5 = new JButton("Insertionsort");
-		btnNewButton_5.setFont(new Font("Consolas", Font.BOLD, 11));
-		btnNewButton_5.setBounds(10, 273, 118, 23);
-		contentPane.add(btnNewButton_5);
 		//Create Window 2
 		InfoJFrame f2 = new InfoJFrame();
 		
 		JButton btnNewButton_6 = new JButton("Information");
+		btnNewButton_6.setBackground(Color.LIGHT_GRAY);
+		btnNewButton_6.setForeground(Color.BLACK);
 		btnNewButton_6.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				f2.frame2.setVisible(true);
